@@ -1,0 +1,13 @@
+db4free account:
+
+
+MySQL database name: hms_db
+MySQL username:  dolorian_hms
+MySQL user password: delorian_2023
+Email address:  trickted2@gmail.com
+
+Database: hms_db
+Username: dolorian_hms
+Email: trickted2@gmail.com
+Port: 3306
+Host name: db4free.net
