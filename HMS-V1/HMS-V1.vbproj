@@ -189,6 +189,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Settings.vb" />
+    <Compile Include="staff_dashboard.Designer.vb">
+      <DependentUpon>staff_dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="staff_dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="staff_rfid.Designer.vb">
       <DependentUpon>staff_rfid.vb</DependentUpon>
     </Compile>
@@ -232,6 +238,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff_dashboard.resx">
+      <DependentUpon>staff_dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="staff_rfid.resx">
       <DependentUpon>staff_rfid.vb</DependentUpon>
@@ -282,6 +291,7 @@
   <ItemGroup>
     <Content Include="app-icon.ico" />
     <Content Include="hms-logo-notext.ico" />
+    <None Include="Resources\admin-manage.png" />
     <None Include="Resources\suite_room.jpg" />
     <None Include="Resources\standard_room.jpg" />
     <None Include="Resources\deluxe_room.jpg" />

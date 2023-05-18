@@ -145,17 +145,23 @@
   <data name="hms-logo-notext" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hms-logo-notext.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="deluxe_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deluxe_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hide(new)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hide(new).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="suite_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suite_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="standard_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\standard_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="admin-male" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin-male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="username" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\username.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,16 +178,13 @@
   <data name="show" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\show.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="username" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\username.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="account-management" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account-management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="deluxe_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deluxe_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="standard_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\standard_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="suite_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\suite_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="admin-manage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\admin-manage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
