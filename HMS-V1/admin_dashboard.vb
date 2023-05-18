@@ -66,7 +66,7 @@ Public Class admin_dashboard
 
             If dataTable.Rows.Count > 0 Then
                 Dim adminName As String = dataTable.Rows(0)("admin_fullname").ToString()
-                profile_name.Text = adminName + "!"
+                'profile_name.Text = adminName + "!"
                 'Show admin data to the textboxes after load
                 admin_name.Text = adminName
                 Dim adminRFID As String = dataTable.Rows(0)("admin_rfid").ToString()
