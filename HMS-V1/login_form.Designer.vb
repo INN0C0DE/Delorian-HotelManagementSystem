@@ -53,20 +53,21 @@ Partial Class login_form
         Dim StateProperties23 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Dim StateProperties24 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.Login_Pages = New Bunifu.UI.WinForms.BunifuPages()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.ADMIN_BTN = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.staff_btn = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.rfidbtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuPictureBox3 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.staff_logintbn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.staff_password = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.staff_username = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.staffpwd_show = New System.Windows.Forms.PictureBox()
         Me.staffpwd_hide = New System.Windows.Forms.PictureBox()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.staff_btn = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.rfid_btn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuPictureBox4 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.admin_loginbtn = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
@@ -74,18 +75,17 @@ Partial Class login_form
         Me.admin_username = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         Me.adminpwd_show = New System.Windows.Forms.PictureBox()
         Me.adminpwd_hide = New System.Windows.Forms.PictureBox()
-        Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Login_Pages.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.staffpwd_show, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.staffpwd_hide, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
         CType(Me.BunifuPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.adminpwd_show, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.adminpwd_hide, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -97,6 +97,21 @@ Partial Class login_form
         Me.GroupBox1.Size = New System.Drawing.Size(574, 514)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'BunifuPictureBox1
+        '
+        Me.BunifuPictureBox1.AllowFocused = False
+        Me.BunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox1.BorderRadius = 50
+        Me.BunifuPictureBox1.Image = Global.HMS_V1.My.Resources.Resources.hms_logo
+        Me.BunifuPictureBox1.IsCircle = True
+        Me.BunifuPictureBox1.Location = New System.Drawing.Point(149, 101)
+        Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
+        Me.BunifuPictureBox1.Size = New System.Drawing.Size(274, 274)
+        Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox1.TabIndex = 0
+        Me.BunifuPictureBox1.TabStop = False
+        Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
         '
         'Login_Pages
         '
@@ -167,71 +182,6 @@ Partial Class login_form
         Me.ADMIN_BTN.Text = "ADMIN"
         Me.ADMIN_BTN.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.ADMIN_BTN.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'BunifuLabel2
-        '
-        Me.BunifuLabel2.AutoEllipsis = False
-        Me.BunifuLabel2.CursorType = Nothing
-        Me.BunifuLabel2.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuLabel2.ForeColor = System.Drawing.Color.DarkGoldenrod
-        Me.BunifuLabel2.Location = New System.Drawing.Point(152, 184)
-        Me.BunifuLabel2.Name = "BunifuLabel2"
-        Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel2.Size = New System.Drawing.Size(60, 36)
-        Me.BunifuLabel2.TabIndex = 14
-        Me.BunifuLabel2.Text = "STAFF"
-        Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'TabPage2
-        '
-        Me.TabPage2.BackColor = System.Drawing.Color.OldLace
-        Me.TabPage2.Controls.Add(Me.staff_btn)
-        Me.TabPage2.Controls.Add(Me.BunifuLabel5)
-        Me.TabPage2.Controls.Add(Me.rfid_btn)
-        Me.TabPage2.Controls.Add(Me.BunifuPictureBox4)
-        Me.TabPage2.Controls.Add(Me.admin_loginbtn)
-        Me.TabPage2.Controls.Add(Me.admin_password)
-        Me.TabPage2.Controls.Add(Me.admin_username)
-        Me.TabPage2.Controls.Add(Me.adminpwd_show)
-        Me.TabPage2.Controls.Add(Me.adminpwd_hide)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 4)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(352, 473)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Admin_Login"
-        '
-        'staff_btn
-        '
-        Me.staff_btn.AutoEllipsis = False
-        Me.staff_btn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.staff_btn.CursorType = System.Windows.Forms.Cursors.Hand
-        Me.staff_btn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.staff_btn.ForeColor = System.Drawing.Color.Tan
-        Me.staff_btn.Location = New System.Drawing.Point(153, 412)
-        Me.staff_btn.Name = "staff_btn"
-        Me.staff_btn.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.staff_btn.Size = New System.Drawing.Size(52, 30)
-        Me.staff_btn.TabIndex = 25
-        Me.staff_btn.Text = "STAFF"
-        Me.staff_btn.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.staff_btn.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'BunifuLabel5
-        '
-        Me.BunifuLabel5.AutoEllipsis = False
-        Me.BunifuLabel5.CursorType = Nothing
-        Me.BunifuLabel5.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuLabel5.ForeColor = System.Drawing.Color.DarkGoldenrod
-        Me.BunifuLabel5.Location = New System.Drawing.Point(151, 185)
-        Me.BunifuLabel5.Name = "BunifuLabel5"
-        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel5.Size = New System.Drawing.Size(68, 36)
-        Me.BunifuLabel5.TabIndex = 23
-        Me.BunifuLabel5.Text = "ADMIN"
-        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'rfidbtn
         '
@@ -310,6 +260,21 @@ Partial Class login_form
         Me.BunifuPictureBox3.TabIndex = 8
         Me.BunifuPictureBox3.TabStop = False
         Me.BunifuPictureBox3.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
+        '
+        'BunifuLabel2
+        '
+        Me.BunifuLabel2.AutoEllipsis = False
+        Me.BunifuLabel2.CursorType = Nothing
+        Me.BunifuLabel2.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel2.ForeColor = System.Drawing.Color.DarkGoldenrod
+        Me.BunifuLabel2.Location = New System.Drawing.Point(152, 184)
+        Me.BunifuLabel2.Name = "BunifuLabel2"
+        Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel2.Size = New System.Drawing.Size(60, 36)
+        Me.BunifuLabel2.TabIndex = 14
+        Me.BunifuLabel2.Text = "STAFF"
+        Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'staff_logintbn
         '
@@ -542,6 +507,56 @@ Partial Class login_form
         Me.staffpwd_hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.staffpwd_hide.TabIndex = 12
         Me.staffpwd_hide.TabStop = False
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.OldLace
+        Me.TabPage2.Controls.Add(Me.staff_btn)
+        Me.TabPage2.Controls.Add(Me.BunifuLabel5)
+        Me.TabPage2.Controls.Add(Me.rfid_btn)
+        Me.TabPage2.Controls.Add(Me.BunifuPictureBox4)
+        Me.TabPage2.Controls.Add(Me.admin_loginbtn)
+        Me.TabPage2.Controls.Add(Me.admin_password)
+        Me.TabPage2.Controls.Add(Me.admin_username)
+        Me.TabPage2.Controls.Add(Me.adminpwd_show)
+        Me.TabPage2.Controls.Add(Me.adminpwd_hide)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 4)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(352, 473)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Admin_Login"
+        '
+        'staff_btn
+        '
+        Me.staff_btn.AutoEllipsis = False
+        Me.staff_btn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.staff_btn.CursorType = System.Windows.Forms.Cursors.Hand
+        Me.staff_btn.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.staff_btn.ForeColor = System.Drawing.Color.Tan
+        Me.staff_btn.Location = New System.Drawing.Point(153, 412)
+        Me.staff_btn.Name = "staff_btn"
+        Me.staff_btn.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.staff_btn.Size = New System.Drawing.Size(52, 30)
+        Me.staff_btn.TabIndex = 25
+        Me.staff_btn.Text = "STAFF"
+        Me.staff_btn.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.staff_btn.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel5
+        '
+        Me.BunifuLabel5.AutoEllipsis = False
+        Me.BunifuLabel5.CursorType = Nothing
+        Me.BunifuLabel5.Font = New System.Drawing.Font("Poppins", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel5.ForeColor = System.Drawing.Color.DarkGoldenrod
+        Me.BunifuLabel5.Location = New System.Drawing.Point(151, 185)
+        Me.BunifuLabel5.Name = "BunifuLabel5"
+        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel5.Size = New System.Drawing.Size(68, 36)
+        Me.BunifuLabel5.TabIndex = 23
+        Me.BunifuLabel5.Text = "ADMIN"
+        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'rfid_btn
         '
@@ -853,21 +868,6 @@ Partial Class login_form
         Me.adminpwd_hide.TabIndex = 21
         Me.adminpwd_hide.TabStop = False
         '
-        'BunifuPictureBox1
-        '
-        Me.BunifuPictureBox1.AllowFocused = False
-        Me.BunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.BunifuPictureBox1.BorderRadius = 50
-        Me.BunifuPictureBox1.Image = Global.HMS_V1.My.Resources.Resources.hms_logo
-        Me.BunifuPictureBox1.IsCircle = True
-        Me.BunifuPictureBox1.Location = New System.Drawing.Point(149, 101)
-        Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
-        Me.BunifuPictureBox1.Size = New System.Drawing.Size(274, 274)
-        Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.BunifuPictureBox1.TabIndex = 0
-        Me.BunifuPictureBox1.TabStop = False
-        Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
-        '
         'login_form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 19.0!)
@@ -885,18 +885,18 @@ Partial Class login_form
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DELORIAN HOTEL | LOGIN"
         Me.GroupBox1.ResumeLayout(False)
+        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Login_Pages.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.staffpwd_show, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.staffpwd_hide, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         CType(Me.BunifuPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.adminpwd_show, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.adminpwd_hide, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

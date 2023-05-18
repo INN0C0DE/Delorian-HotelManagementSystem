@@ -46,3 +46,4 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.Win
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.add_booking.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.update_booking.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.staff_dashboard.resources

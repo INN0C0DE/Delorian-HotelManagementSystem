@@ -294,7 +294,7 @@ Public Class admin_dashboard
         Try
             add_booking.Show()
         Catch ex As Exception
-            MessageBox.Show(ex.Message)
+            'MessageBox.Show(ex.Message)
         End Try
     End Sub
 
@@ -320,7 +320,7 @@ Public Class admin_dashboard
                 MessageBox.Show("Please select booking info to edit.", "BOOKING STATUS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
             End If
         Catch ex As Exception
-            MessageBox.Show(ex.Message)
+            'MessageBox.Show(ex.Message)
         End Try
     End Sub
 

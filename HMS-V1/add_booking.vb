@@ -57,9 +57,12 @@
         Else
             create("INSERT INTO bookings (booking_firstname,booking_lastname,booking_email,booking_number,booking_address,booking_roomtype,booking_inDate,booking_outDate,booking_days,booking_amount,booking_status) VALUES ('" & booking_firstname.Text & "','" & booking_lastname.Text & "','" & booking_email.Text & "','" & booking_number.Text & "','" & booking_address.Text & "','" & booking_roomtype.Text & "','" & booking_startdate.Value.ToString("yyyy-MM-dd") & "','" & booking_enddate.Value.ToString("yyyy-MM-dd") & "','" & booking_days.Text & "','" & booking_amount.Text & "','" & booking_status.Text & "')")
 
-            Me.Hide()
+
             admin_dashboard.LOADLV2()
+            staff_dashboard.LOADLV2()
             Call CLEARTEXT()
+            Me.Hide()
+
         End If
     End Sub
     Public Sub CLEARTEXT()

@@ -10,6 +10,7 @@ Public Class update_booking
             updates("UPDATE bookings SET booking_firstname='" & booking_firstname.Text & "', booking_lastname='" & booking_lastname.Text & "', booking_email='" & booking_email.Text & "', booking_number='" & booking_number.Text & "', booking_address='" & booking_address.Text & "', booking_roomtype='" & booking_roomtype.Text & "', booking_inDate='" & booking_startdate.Value.ToString("yyyy-MM-dd") & "', booking_outDate='" & booking_enddate.Value.ToString("yyyy-MM-dd") & "', booking_days='" & booking_days.Text & "', booking_amount='" & booking_amount.Text & "', booking_status='" & booking_status.Text & "' WHERE booking_id='" & booking_id.Text & "'")
             'create("INSERT INTO bookings (booking_firstname,booking_lastname,booking_email,booking_number,booking_address,booking_roomtype,booking_inDate,booking_outDate,booking_days,booking_amount,booking_status) VALUES ('" & booking_firstname.Text & "','" & booking_lastname.Text & "','" & booking_email.Text & "','" & booking_number.Text & "','" & booking_address.Text & "','" & booking_roomtype.Text & "','" & booking_startdate.Value.ToString("yyyy-MM-dd") & "','" & booking_enddate.Value.ToString("yyyy-MM-dd") & "','" & booking_days.Text & "','" & booking_amount.Text & "','" & booking_status.Text & "')")
             admin_dashboard.LOADLV2()
+            staff_dashboard.LOADLV2()
 
             Call CLEARTEXT()
             Me.Hide()
