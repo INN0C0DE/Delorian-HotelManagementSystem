@@ -399,4 +399,10 @@ Public Class admin_dashboard
         End Using
     End Sub
     'OPTIMIZED SEARCH BAR *****ENDS HERE******
+    Private Sub admin_dashboard_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If e.CloseReason = CloseReason.UserClosing Then
+            Application.Exit()
+        End If
+    End Sub
+
 End Class

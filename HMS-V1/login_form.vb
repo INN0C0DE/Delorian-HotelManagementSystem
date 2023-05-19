@@ -1,4 +1,5 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.ComponentModel
+Imports MySql.Data.MySqlClient
 
 Public Class login_form
     'Private Sub hide_pass_Click(sender As Object, e As EventArgs)
@@ -246,4 +247,9 @@ Public Class login_form
         End If
     End Sub
 
+    Private Sub login_form_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If e.CloseReason = CloseReason.UserClosing Then
+            Application.Exit()
+        End If
+    End Sub
 End Class

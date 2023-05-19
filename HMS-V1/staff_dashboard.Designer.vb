@@ -129,9 +129,9 @@ Partial Class staff_dashboard
         Me.profile_name.Location = New System.Drawing.Point(127, 20)
         Me.profile_name.Name = "profile_name"
         Me.profile_name.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.profile_name.Size = New System.Drawing.Size(143, 39)
+        Me.profile_name.Size = New System.Drawing.Size(124, 39)
         Me.profile_name.TabIndex = 2
-        Me.profile_name.Text = "Admin Name"
+        Me.profile_name.Text = "Staff Name"
         Me.profile_name.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.profile_name.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
