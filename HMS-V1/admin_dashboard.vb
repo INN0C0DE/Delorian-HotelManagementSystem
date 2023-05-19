@@ -86,7 +86,14 @@ Public Class admin_dashboard
             End If
         End Using
         Call SetProfilePhoto()
+        Timer1.Start()
     End Sub
+    'DateTime Display
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        time_label.Text = DateTime.Now.ToString("hh:mm:ss tt") ' Display current time
+        date_label.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy") ' Display current date
+    End Sub
+
     Private connectionString As String = "server=rasc.mysql.database.azure.com;username=innocode_rasc;password=Rasc_062301;database=hms_db;"
 
     'Private Sub staff_search_TextChanged(sender As Object, e As EventArgs) Handles staff_search.TextChanged

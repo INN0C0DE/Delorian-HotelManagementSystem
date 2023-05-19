@@ -23,8 +23,12 @@ Public Class staff_dashboard
 
     Private Sub staff_dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call LOADLV2()
-
+        Timer1.Start()
         staff_pages.SetPage("rooms")
+    End Sub
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        time_label.Text = DateTime.Now.ToString("hh:mm:ss tt") ' Display current time
+        date_label.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy") ' Display current date
     End Sub
     Public Sub LOADLV2()
         reload("SELECT * FROM bookings", booking_dgv)
