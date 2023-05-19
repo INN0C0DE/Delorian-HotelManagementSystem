@@ -23,89 +23,15 @@ Partial Class admin_rfid
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(admin_rfid))
-        Dim StateProperties1 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties2 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties3 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Dim StateProperties4 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
-        Me.admin_rfidno = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
+        Dim StateProperties5 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties6 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties7 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
+        Dim StateProperties8 As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties()
         Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.rfid_admintb = New Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox()
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'admin_rfidno
-        '
-        Me.admin_rfidno.AcceptsReturn = False
-        Me.admin_rfidno.AcceptsTab = False
-        Me.admin_rfidno.AnimationSpeed = 200
-        Me.admin_rfidno.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
-        Me.admin_rfidno.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
-        Me.admin_rfidno.BackColor = System.Drawing.Color.Transparent
-        Me.admin_rfidno.BackgroundImage = CType(resources.GetObject("admin_rfidno.BackgroundImage"), System.Drawing.Image)
-        Me.admin_rfidno.BorderColorActive = System.Drawing.Color.DarkGoldenrod
-        Me.admin_rfidno.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
-        Me.admin_rfidno.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.admin_rfidno.BorderColorIdle = System.Drawing.Color.Silver
-        Me.admin_rfidno.BorderRadius = 25
-        Me.admin_rfidno.BorderThickness = 1
-        Me.admin_rfidno.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
-        Me.admin_rfidno.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.admin_rfidno.DefaultFont = New System.Drawing.Font("Poppins", 12.0!)
-        Me.admin_rfidno.DefaultText = ""
-        Me.admin_rfidno.FillColor = System.Drawing.Color.White
-        Me.admin_rfidno.HideSelection = True
-        Me.admin_rfidno.IconLeft = Nothing
-        Me.admin_rfidno.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
-        Me.admin_rfidno.IconPadding = 10
-        Me.admin_rfidno.IconRight = Nothing
-        Me.admin_rfidno.IconRightCursor = System.Windows.Forms.Cursors.IBeam
-        Me.admin_rfidno.Lines = New String(-1) {}
-        Me.admin_rfidno.Location = New System.Drawing.Point(88, 108)
-        Me.admin_rfidno.MaxLength = 32767
-        Me.admin_rfidno.MinimumSize = New System.Drawing.Size(100, 35)
-        Me.admin_rfidno.Modified = False
-        Me.admin_rfidno.Multiline = False
-        Me.admin_rfidno.Name = "admin_rfidno"
-        StateProperties1.BorderColor = System.Drawing.Color.DarkGoldenrod
-        StateProperties1.FillColor = System.Drawing.Color.Empty
-        StateProperties1.ForeColor = System.Drawing.Color.Empty
-        StateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_rfidno.OnActiveState = StateProperties1
-        StateProperties2.BorderColor = System.Drawing.Color.Empty
-        StateProperties2.FillColor = System.Drawing.Color.White
-        StateProperties2.ForeColor = System.Drawing.Color.Empty
-        StateProperties2.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_rfidno.OnDisabledState = StateProperties2
-        StateProperties3.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
-        StateProperties3.FillColor = System.Drawing.Color.Empty
-        StateProperties3.ForeColor = System.Drawing.Color.Empty
-        StateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_rfidno.OnHoverState = StateProperties3
-        StateProperties4.BorderColor = System.Drawing.Color.Silver
-        StateProperties4.FillColor = System.Drawing.Color.White
-        StateProperties4.ForeColor = System.Drawing.Color.Empty
-        StateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty
-        Me.admin_rfidno.OnIdleState = StateProperties4
-        Me.admin_rfidno.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.admin_rfidno.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.admin_rfidno.PlaceholderText = "RFID NUMBER"
-        Me.admin_rfidno.ReadOnly = False
-        Me.admin_rfidno.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.admin_rfidno.SelectedText = ""
-        Me.admin_rfidno.SelectionLength = 0
-        Me.admin_rfidno.SelectionStart = 0
-        Me.admin_rfidno.ShortcutsEnabled = True
-        Me.admin_rfidno.Size = New System.Drawing.Size(238, 35)
-        Me.admin_rfidno.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
-        Me.admin_rfidno.TabIndex = 3
-        Me.admin_rfidno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.admin_rfidno.TextMarginBottom = 0
-        Me.admin_rfidno.TextMarginLeft = 5
-        Me.admin_rfidno.TextMarginTop = 0
-        Me.admin_rfidno.TextPlaceholder = "RFID NUMBER"
-        Me.admin_rfidno.UseSystemPasswordChar = False
-        Me.admin_rfidno.Visible = False
-        Me.admin_rfidno.WordWrap = True
         '
         'BunifuCustomLabel1
         '
@@ -134,13 +60,86 @@ Partial Class admin_rfid
         Me.BunifuPictureBox1.TabStop = False
         Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square
         '
+        'rfid_admintb
+        '
+        Me.rfid_admintb.AcceptsReturn = False
+        Me.rfid_admintb.AcceptsTab = False
+        Me.rfid_admintb.AnimationSpeed = 200
+        Me.rfid_admintb.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None
+        Me.rfid_admintb.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None
+        Me.rfid_admintb.BackColor = System.Drawing.Color.Transparent
+        Me.rfid_admintb.BackgroundImage = CType(resources.GetObject("rfid_admintb.BackgroundImage"), System.Drawing.Image)
+        Me.rfid_admintb.BorderColorActive = System.Drawing.Color.DodgerBlue
+        Me.rfid_admintb.BorderColorDisabled = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer), CType(CType(161, Byte), Integer))
+        Me.rfid_admintb.BorderColorHover = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.rfid_admintb.BorderColorIdle = System.Drawing.Color.Silver
+        Me.rfid_admintb.BorderRadius = 1
+        Me.rfid_admintb.BorderThickness = 1
+        Me.rfid_admintb.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal
+        Me.rfid_admintb.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.rfid_admintb.DefaultFont = New System.Drawing.Font("Segoe UI Semibold", 9.75!)
+        Me.rfid_admintb.DefaultText = ""
+        Me.rfid_admintb.FillColor = System.Drawing.Color.White
+        Me.rfid_admintb.HideSelection = True
+        Me.rfid_admintb.IconLeft = Nothing
+        Me.rfid_admintb.IconLeftCursor = System.Windows.Forms.Cursors.IBeam
+        Me.rfid_admintb.IconPadding = 10
+        Me.rfid_admintb.IconRight = Nothing
+        Me.rfid_admintb.IconRightCursor = System.Windows.Forms.Cursors.IBeam
+        Me.rfid_admintb.Lines = New String(-1) {}
+        Me.rfid_admintb.Location = New System.Drawing.Point(588, 12)
+        Me.rfid_admintb.MaxLength = 32767
+        Me.rfid_admintb.MinimumSize = New System.Drawing.Size(100, 35)
+        Me.rfid_admintb.Modified = False
+        Me.rfid_admintb.Multiline = False
+        Me.rfid_admintb.Name = "rfid_admintb"
+        StateProperties5.BorderColor = System.Drawing.Color.DodgerBlue
+        StateProperties5.FillColor = System.Drawing.Color.Empty
+        StateProperties5.ForeColor = System.Drawing.Color.Empty
+        StateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.rfid_admintb.OnActiveState = StateProperties5
+        StateProperties6.BorderColor = System.Drawing.Color.Empty
+        StateProperties6.FillColor = System.Drawing.Color.White
+        StateProperties6.ForeColor = System.Drawing.Color.Empty
+        StateProperties6.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.rfid_admintb.OnDisabledState = StateProperties6
+        StateProperties7.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        StateProperties7.FillColor = System.Drawing.Color.Empty
+        StateProperties7.ForeColor = System.Drawing.Color.Empty
+        StateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.rfid_admintb.OnHoverState = StateProperties7
+        StateProperties8.BorderColor = System.Drawing.Color.Silver
+        StateProperties8.FillColor = System.Drawing.Color.White
+        StateProperties8.ForeColor = System.Drawing.Color.Empty
+        StateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty
+        Me.rfid_admintb.OnIdleState = StateProperties8
+        Me.rfid_admintb.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.rfid_admintb.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.rfid_admintb.PlaceholderText = ""
+        Me.rfid_admintb.ReadOnly = False
+        Me.rfid_admintb.ScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.rfid_admintb.SelectedText = ""
+        Me.rfid_admintb.SelectionLength = 0
+        Me.rfid_admintb.SelectionStart = 0
+        Me.rfid_admintb.ShortcutsEnabled = True
+        Me.rfid_admintb.Size = New System.Drawing.Size(200, 35)
+        Me.rfid_admintb.Style = Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox._Style.Bunifu
+        Me.rfid_admintb.TabIndex = 6
+        Me.rfid_admintb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.rfid_admintb.TextMarginBottom = 0
+        Me.rfid_admintb.TextMarginLeft = 5
+        Me.rfid_admintb.TextMarginTop = 0
+        Me.rfid_admintb.TextPlaceholder = ""
+        Me.rfid_admintb.UseSystemPasswordChar = False
+        Me.rfid_admintb.WordWrap = True
+        '
         'admin_rfid
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Wheat
         Me.ClientSize = New System.Drawing.Size(401, 276)
-        Me.Controls.Add(Me.admin_rfidno)
+        Me.Controls.Add(Me.rfid_admintb)
         Me.Controls.Add(Me.BunifuCustomLabel1)
         Me.Controls.Add(Me.BunifuPictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -153,8 +152,7 @@ Partial Class admin_rfid
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents admin_rfidno As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
     Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuPictureBox1 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents rfid_admintb As Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox
 End Class
