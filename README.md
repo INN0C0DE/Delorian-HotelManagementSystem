@@ -3,13 +3,13 @@
 A Hotel Management System made using Visual Studio .NET with Azure mySQL database.
 <br>
 <br>
-Demo Video: <a href="https://www.youtube.com/watch?v=Pfj0hTCZXsE">Delorian HMS: Video Demo</a>
+Demo Video: <a href="https://www.youtube.com/watch?v=Pfj0hTCZXsE" target="_blank">Delorian HMS: Video Demo</a>
 <br>
 
 Installers:
-Link 1: <a href="https://www.mediafire.com/file/5outjavd26bhif7/Delorian_HMS_%2528BETA%2529.rar/file">Delorian HMS: MediaFire Link</a>
+Link 1: <a href="https://www.mediafire.com/file/5outjavd26bhif7/Delorian_HMS_%2528BETA%2529.rar/file" target="_blank">Delorian HMS: MediaFire Link</a>
 <br>
-Link 2: <a href="https://mega.nz/file/DaxGlZ4D#UCAausn_xyG2dWn3gONJmxMUUggn8iEjRKORTsToAgU">Delorian HMS: Mega.nz Link</a>
+Link 2: <a href="https://mega.nz/file/DaxGlZ4D#UCAausn_xyG2dWn3gONJmxMUUggn8iEjRKORTsToAgU" target="_blank">Delorian HMS: Mega.nz Link</a>
 <br>
 
 
