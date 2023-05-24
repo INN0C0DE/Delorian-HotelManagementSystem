@@ -87,7 +87,7 @@ Partial Class staff_rfid
         Me.rfid_stafftb.IconRight = Nothing
         Me.rfid_stafftb.IconRightCursor = System.Windows.Forms.Cursors.IBeam
         Me.rfid_stafftb.Lines = New String(-1) {}
-        Me.rfid_stafftb.Location = New System.Drawing.Point(517, 21)
+        Me.rfid_stafftb.Location = New System.Drawing.Point(653, 159)
         Me.rfid_stafftb.MaxLength = 32767
         Me.rfid_stafftb.MinimumSize = New System.Drawing.Size(100, 35)
         Me.rfid_stafftb.Modified = False
