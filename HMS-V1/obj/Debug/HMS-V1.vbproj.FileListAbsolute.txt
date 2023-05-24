@@ -1,7 +1,3 @@
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\HMS-V1.exe.config
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\HMS-V1.exe
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\HMS-V1.pdb
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\HMS-V1.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\MySql.Data.dll
@@ -13,16 +9,12 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.Resour
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.vbproj.GenerateResource.cache
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.vbproj.CoreCompileInputs.cache
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.vbproj.CopyComplete
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.exe
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.xml
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.pdb
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu_UI_v1.5.3.xml
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS-V1.exe.config
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.splash_screen.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.login_form.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
@@ -47,3 +39,15 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Bunifu.UI.Win
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.add_booking.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.update_booking.resources
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.staff_dashboard.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.exe.config
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.exe.manifest
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.application
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.exe
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.pdb
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.xml
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe.config
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe.manifest
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.application
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.xml
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.pdb

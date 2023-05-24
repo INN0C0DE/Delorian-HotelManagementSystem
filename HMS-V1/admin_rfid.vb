@@ -37,20 +37,24 @@ Imports MySql.Data.MySqlClient
 Public Class admin_rfid
     Private connectionString As String = "server=rasc.mysql.database.azure.com;username=innocode_rasc;password=Rasc_062301;database=hms_db;"
 
-    Private Sub rfid_admintb_TextChanged(sender As Object, e As EventArgs) Handles rfid_admintb.TextChanged
-        Dim cardNumber As String = rfid_admintb.Text.Trim()
+    Private Sub rfid_admintb_KeyDown(sender As Object, e As KeyEventArgs) Handles rfid_admintb.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            e.SuppressKeyPress = True ' Prevent the Enter key from adding a new line to the TextBox
 
-        If cardNumber.Length > 0 Then
-            If VerifyCardNumber(cardNumber) Then
-                MessageBox.Show("RFID card valid, logged in successfully", "DELORIAN HOTEL | LOGIN STATUS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                admin_dashboard.Show()
-                admin_dashboard.profile_name.Text = GetAdminFullName(cardNumber) + "!" ' Set the admin name label in admin_dashboard form
-                login_form.Hide()
-                Me.Close()
-            Else
-                MessageBox.Show("RFID card not valid, logged in failed!", "DELORIAN HOTEL | LOGIN STATUS:", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-                rfid_admintb.Clear()
-                rfid_admintb.Focus()
+            Dim cardNumber As String = rfid_admintb.Text.Trim()
+
+            If cardNumber.Length > 0 Then
+                If VerifyCardNumber(cardNumber) Then
+                    MessageBox.Show("RFID card valid, logged in successfully", "DELORIAN HOTEL | LOGIN STATUS:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    admin_dashboard.Show()
+                    admin_dashboard.profile_name.Text = GetAdminFullName(cardNumber) + "!" ' Set the admin name label in admin_dashboard form
+                    login_form.Hide()
+                    Me.Close()
+                Else
+                    MessageBox.Show("RFID card not valid, logged in failed!", "DELORIAN HOTEL | LOGIN STATUS:", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+                    rfid_admintb.Clear()
+                    rfid_admintb.Focus()
+                End If
             End If
         End If
     End Sub
@@ -83,3 +87,4 @@ Public Class admin_rfid
         End Using
     End Function
 End Class
+

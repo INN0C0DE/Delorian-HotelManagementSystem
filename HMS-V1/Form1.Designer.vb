@@ -23,6 +23,7 @@ Partial Class splash_screen
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(splash_screen))
         Me.BunifuColorTransition1 = New BunifuColorTransition.BunifuColorTransition(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
@@ -51,7 +52,7 @@ Partial Class splash_screen
         Me.BunifuPictureBox1.BorderRadius = 50
         Me.BunifuPictureBox1.Image = Global.HMS_V1.My.Resources.Resources.hms_logo
         Me.BunifuPictureBox1.IsCircle = True
-        Me.BunifuPictureBox1.Location = New System.Drawing.Point(246, 81)
+        Me.BunifuPictureBox1.Location = New System.Drawing.Point(255, 81)
         Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
         Me.BunifuPictureBox1.Size = New System.Drawing.Size(253, 253)
         Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -66,6 +67,7 @@ Partial Class splash_screen
         Me.ClientSize = New System.Drawing.Size(752, 447)
         Me.Controls.Add(Me.BunifuPictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "splash_screen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
