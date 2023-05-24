@@ -8,9 +8,9 @@ Demo Video: <a href="https://www.youtube.com/watch?v=Pfj0hTCZXsE" target="_blank
 
 Installers:
 <br>
-Link 1: <a href="https://www.mediafire.com/file/5outjavd26bhif7/Delorian_HMS_%2528BETA%2529.rar/file" target="_blank">Delorian HMS: MediaFire Link</a>
+Link 1: <a href="https://www.mediafire.com/file/6rm56mbc8n9kwpv/DELORIAN_HMS_%2528VERSION_1.0%2529.rar/file" target="_blank">Delorian HMS: MediaFire Link</a>
 <br>
-Link 2: <a href="https://mega.nz/file/DaxGlZ4D#UCAausn_xyG2dWn3gONJmxMUUggn8iEjRKORTsToAgU" target="_blank">Delorian HMS: Mega.nz Link</a>
+Link 2: <a href="https://mega.nz/file/DSwTDBwY#d-vK8EYDHndXfDYmNUPeqXNLo2Wl9t5qvAV8_WLdZAA" target="_blank">Delorian HMS: Mega.nz Link</a>
 <br>
 
 
