@@ -412,4 +412,19 @@ Public Class admin_dashboard
         End If
     End Sub
 
+    Private Sub message_btn_Click(sender As Object, e As EventArgs) Handles message_btn.Click
+        Try
+            If booking_dgv.SelectedRows.Count > 0 Then
+                With message_notifier
+                    .notifier_number.Text = booking_dgv.SelectedRows.Item(0).Cells(4).Value
+                    .notifier_message.Text = "Good day, " + booking_dgv.SelectedRows.Item(0).Cells(1).Value + "! Your booking has been " + booking_dgv.SelectedRows.Item(0).Cells(8).Value + ". Your check-in/ check-out date will be on " + booking_dgv.SelectedRows.Item(0).Cells(6).Value + " to " + booking_dgv.SelectedRows.Item(0).Cells(7).Value + ". Thank you for choosing Delorian Hotel! We are happy to serve you."
+                    .ShowDialog()
+                End With
+            Else
+                MessageBox.Show("Please select booking to notify.", "MESSAGE NOTIFER:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        Catch ex As Exception
+            'MessageBox.Show(ex.Message)
+        End Try
+    End Sub
 End Class

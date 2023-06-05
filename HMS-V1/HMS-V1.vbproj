@@ -185,6 +185,12 @@
     <Compile Include="login_form.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="message_notifier.Designer.vb">
+      <DependentUpon>message_notifier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="message_notifier.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -245,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login_form.resx">
       <DependentUpon>login_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="message_notifier.resx">
+      <DependentUpon>message_notifier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

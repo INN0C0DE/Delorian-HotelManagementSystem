@@ -51,3 +51,4 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hote
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.pdb
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.message_notifier.resources
