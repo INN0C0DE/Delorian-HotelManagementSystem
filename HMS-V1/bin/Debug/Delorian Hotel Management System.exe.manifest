@@ -199,14 +199,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Delorian Hotel Management System.exe" size="2845752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Delorian Hotel Management System.exe" size="2848312">
       <assemblyIdentity name="Delorian Hotel Management System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/E07FFrX2tR7UzHmYsWhP8oD7O0BnTZlFOS5PkvzH0g=</dsig:DigestValue>
+        <dsig:DigestValue>MfXA10QyXBxbx003PD9ffiX/bGP2kAPt/a7BkXJjDvM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
