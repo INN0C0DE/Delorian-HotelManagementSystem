@@ -199,14 +199,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Delorian Hotel Management System.exe" size="2829368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Delorian Hotel Management System.exe" size="2845752">
       <assemblyIdentity name="Delorian Hotel Management System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IcICJmpa8sMTsu0Hxxdb2U+yjJEym9TNqy2FpaKSOIw=</dsig:DigestValue>
+        <dsig:DigestValue>/E07FFrX2tR7UzHmYsWhP8oD7O0BnTZlFOS5PkvzH0g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -234,6 +234,18 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.IO.Ports.dll" size="35960">
+      <assemblyIdentity name="System.IO.Ports" version="8.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XIUBcnXlaoNwTig33yxhb/UkW9re8JUvYSQfGUp44EM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
   <file name="app-icon.ico" size="4286">
     <hash>
       <dsig:Transforms>
@@ -243,13 +255,13 @@
       <dsig:DigestValue>EhD+dm9MnHiDxispuwZxPn++PqWn+Fn7hLxBJ6JiX74=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Delorian Hotel Management System.exe.config" size="1189">
+  <file name="Delorian Hotel Management System.exe.config" size="1252">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TvQRRDJ1x2mRuT2pjxm5kHnhEQq/U7i7hSRnJLZEbT4=</dsig:DigestValue>
+      <dsig:DigestValue>cIGpW0ic1+UrySR4Ga5OrCFf/ldaLkwgjSaeeAvUwE4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="hms-logo-notext.ico" size="4286">

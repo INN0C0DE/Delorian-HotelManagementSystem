@@ -394,4 +394,13 @@ Partial Class message_notifier
     Friend WithEvents BunifuLabel1 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents send_btn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents closeNotifier_btn As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents SerialPort1 As IO.Ports.SerialPort
+
+    Private Sub message_notifier_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub notifier_message_TextChanged(sender As Object, e As EventArgs) Handles notifier_message.TextChanged
+
+    End Sub
 End Class

@@ -45,10 +45,12 @@ C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hote
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.exe
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.pdb
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\Delorian Hotel Management System.xml
-C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe.config
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe.manifest
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.application
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.exe
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.xml
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\Delorian Hotel Management System.pdb
 C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.message_notifier.resources
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\System.IO.Ports.dll
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\bin\Debug\System.IO.Ports.xml
+C:\Users\Raphael Arnaldo Cruz\source\repos\HMS-V1\HMS-V1\obj\Debug\HMS_V1.notifier_form.resources

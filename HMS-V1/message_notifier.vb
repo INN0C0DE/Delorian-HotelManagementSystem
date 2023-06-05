@@ -1,3 +1,3 @@
-﻿Public Class message_notifier
+﻿Imports System.IO.Ports
+Imports System.Threading
 
-End Class

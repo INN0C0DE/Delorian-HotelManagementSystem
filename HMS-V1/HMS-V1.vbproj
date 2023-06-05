@@ -30,6 +30,7 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -123,6 +124,9 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Ports, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Ports.8.0.0-preview.4.23259.5\lib\net462\System.IO.Ports.dll</HintPath>
+    </Reference>
     <Reference Include="System.Management" />
     <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
@@ -188,9 +192,7 @@
     <Compile Include="message_notifier.Designer.vb">
       <DependentUpon>message_notifier.vb</DependentUpon>
     </Compile>
-    <Compile Include="message_notifier.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="message_notifier.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -206,6 +208,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="notifier_form.Designer.vb">
+      <DependentUpon>notifier_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notifier_form.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Settings.vb" />
     <Compile Include="staff_dashboard.Designer.vb">
@@ -261,6 +269,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="notifier_form.resx">
+      <DependentUpon>notifier_form.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="staff_dashboard.resx">
       <DependentUpon>staff_dashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -288,6 +299,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\hms-logo.png" />
   </ItemGroup>
   <ItemGroup>
