@@ -6,8 +6,9 @@ Public Class notifier_form
 
     Private Sub notifier_form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         With smsport
-            .BaudRate = 9600
+            .BaudRate = 115200
             .DataBits = 8
+            .Parity = Parity.None
             .StopBits = StopBits.One
             .Handshake = Handshake.None
             .DtrEnable = True
@@ -31,20 +32,32 @@ Public Class notifier_form
     End Sub
 
     Private Sub send_message_Click(sender As Object, e As EventArgs) Handles send_message.Click
-        Try
+        If notifier_number.Text = "" Or notifier_message.Text = "" Then
+            MessageBox.Show("Please enter a Recepient's number and a Message.", "Message Notifier:", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            Dim atCMGS As String = "AT+CMGS=" & Chr(34) & notifier_number.Text & Chr(34) & vbCrLf
             With smsport
                 .WriteLine("AT" & vbCrLf)
-                Threading.Thread.Sleep(1000)
                 .WriteLine("AT+CMGF=1" & vbCrLf)
+                .WriteLine(atCMGS)
                 Threading.Thread.Sleep(1000)
-                .WriteLine("AT+CMGS=" & Chr(34) & notifier_number.Text & Chr(34) & vbCrLf)
-                Threading.Thread.Sleep(1000)
+                Dim response As String = smsport.ReadExisting()
+                Do Until response.Contains(">")
+                    response &= smsport.ReadExisting()
+                Loop
                 .WriteLine(notifier_message.Text & vbCrLf & Chr(26))
+                Threading.Thread.Sleep(3000)
+                Dim newresponse = smsport.ReadExisting()
+                If newresponse.Contains("ERROR") Then
+                    MessageBox.Show("Failed to send message.", "Message Notifier:", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Else
+                    MessageBox.Show("Message sent!", "Message Notifier:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                End If
             End With
-            MessageBox.Show("Message Sent!", "Message Notifier:", MessageBoxButtons.OK, MessageBoxIcon.Information)
-        Catch ex As Exception
-            MessageBox.Show("Failed to send message: " & ex.Message)
-        End Try
+            'MessageBox.Show("Message Sent!", "Message Notifier:", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+
     End Sub
 
     Private Sub close_btn_Click(sender As Object, e As EventArgs) Handles close_btn.Click
